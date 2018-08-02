@@ -1,4 +1,5 @@
 function xml2json(xml) {
+    
     var dom = window.ActiveXObject ? (new ActiveXObject("Microsoft.XMLDOM")) : null;
 
     dom = dom ? dom : document.implementation.createDocument(null, "body");
